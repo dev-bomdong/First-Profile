@@ -1,0 +1,7 @@
+.main__slide {
+  width: 550px;
+  height: 550px;
+  background-image: url("../pic/daisy.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}

@@ -1,0 +1,15 @@
+@import "css/main.css";
+@import "css/header.css";
+@import "css/background.css";
+@import "css/whoami.css";
+@import "css/contact.css";
+@import "css/love.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+

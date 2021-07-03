@@ -1,0 +1,12 @@
+.background { 
+    animation: fadein 0.7s;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}

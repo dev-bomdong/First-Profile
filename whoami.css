@@ -1,0 +1,61 @@
+
+.whoami__pic {
+    width: 450px;
+    height: 450px;
+    margin-right: 10px;
+}
+
+.whoami__text {
+    width: 450px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 200%;
+}
+
+
+.whoami__text-name {
+font-size: 40px;
+font-weight: 400;
+}
+
+.whoami__text-name:after {
+    content: "";
+    display: block;
+    width: 200px;
+    border-bottom: 1px solid darkgray;
+    margin: 30px auto;
+  }
+
+.whoami__text-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight:400;
+}
+
+.whoami__text-link {
+    text-decoration-line: none;
+    color: darkgray;}
+
+.whoami__text-link:hover{
+    font-weight: 600;
+    color: black;
+}
+
+.whoami__wrap {
+    margin-top: 30px;
+    display: flex;    
+    justify-content: center;
+    animation: fadein 0.7s;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
