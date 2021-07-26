@@ -1,5 +1,6 @@
 .header {
-    padding-top: 20px;
+    display: block;
+    margin: 5vh auto 0 auto;
     text-align: center;
 }
 
@@ -16,7 +17,6 @@
 .header__nav {
     display: flex;
     justify-content: center;
-    margin-top: -10px;
     font-size: 15pt;
     font-family: 'Heebo', sans-serif;
     font-weight: 100;
