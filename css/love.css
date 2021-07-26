@@ -12,7 +12,7 @@
 .love__list {
     display: flex;
     flex-direction: column;
-    margin: 0 30px;
+    margin: 7vh 5vh;
 }
 
 .love__list-wrap {
