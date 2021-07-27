@@ -1,2 +1,2 @@
-# Introduction
-Introduction page with HTML, CSS, JS
+# First Profile Page
+First Profile page with HTML, CSS, JS
