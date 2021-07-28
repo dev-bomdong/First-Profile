@@ -15,16 +15,37 @@
 }
 
 .header__nav {
+    font-size: 20pt;
     display: flex;
     justify-content: center;
-    font-size: 15pt;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
-    font-style: italic;
 }
 
 .header__menu {
-    margin: 0 50px 0 50px;
-    text-decoration-line: none;
-    color: black;
+    margin: 30px 50px 0 50px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: #333;
+    font-family: 'Benne', serif;
+    font-weight: lighter;
+    font-size: 20pt;
+    font-style: italic;
 }
+
+  .header__menu:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: rgb(219, 219, 219);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .header__menu:hover:after { 
+    width: 100%; 
+    left: 0; 
+    padding-top: -10vh;
+  }
