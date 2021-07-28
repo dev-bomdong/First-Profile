@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>🌼DongHee Kim</title>
+    <script defer src="love.js"></script>
 </head>
 
 <body>
@@ -16,22 +17,22 @@
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap');
     </style>
 
-    <div class="header">
-        <a href="index.html" class="header__name"><span>DongHee Kim</span></a>
-        <div class="header__nav">
-            <a href="whoami.html" class="header__menu">
-                <h4>Who am I</h4>
-            </a>
-            <a href="love.html" class="header__menu">
-                <h4>What I Love</h4>
-            </a>
-            <a href="contact.html" class="header__menu">
-                <h4>Contact</h4>
-            </a>
-        </div>
+<div class="header">
+    <a href="index.html" class="header__name"><span>DongHee Kim</span></a>
+    <div class="header__nav">
+        <a href="whoami.html">
+            <span class="header__menu">Who am I</span>
+        </a>
+        <a href="love.html">
+            <span class="header__menu">What I Love</span>
+        </a>
+        <a href="contact.html">
+            <span class="header__menu">Contact</span>
+        </a>
     </div>
+</div>
         <div class="love__list-wrap">
-            <div class="love__list">
+            <div class="love__list" id="list1">
                 <img src="pic/puppy.gif" class="love__list-pic">
                 <div class="love__list-text">
                     <div class="love__list-title">세상의 모든 개</div>
@@ -40,7 +41,7 @@
                         반려견과 생활하시는 분들은 제게 마구 자랑해주세요! (사진은 필수입니다)</div>
                 </div>
             </div>
-            <div class="love__list">
+            <div class="love__list" id="list2">
                 <img src="pic/book.jpg" class="love__list-pic">
                 <div class="love__list-text">
                     <div class="love__list-title">독서</div>
@@ -49,7 +50,7 @@
                         인상깊었던 구절을 필사하는 취미도 가지고 있어요.</div>
                 </div>
             </div>
-            <div class="love__list">
+            <div class="love__list" id="list3">
                 <img src="pic/plan.jpg" class="love__list-pic">
                 <div class="love__list-text">
                     <div class="love__list-title">계획</div>
@@ -58,7 +59,7 @@
                         ESTJ)<br> 매일 플래너를 작성하고 있어요. </div>
                 </div>
             </div>
-            <div class="love__list">
+            <div class="love__list" id="list4">
                 <img src="pic/paris.jpg" class="love__list-pic">
                 <div class="love__list-text">
                     <div class="love__list-title">여행</div>
