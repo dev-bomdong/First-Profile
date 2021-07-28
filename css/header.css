@@ -1,6 +1,6 @@
 .header {
   display: block;
-  margin: 20px auto 20px auto;
+  margin: 20px auto 10px auto;
   text-align: center;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .header__menu {
-  margin: 0 50px 0 50px;
+  margin: 10vh 50px 0 50px;
   text-decoration: none;
   display: inline-block;
   position: relative;
