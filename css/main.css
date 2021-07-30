@@ -13,6 +13,9 @@
   transition: opacity 0.5s ease-in-out;
 }
 
+.slider img {
+  width: 30%;
+}
 
 .showing {
   z-index: 1;
